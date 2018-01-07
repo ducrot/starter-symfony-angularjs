@@ -1,0 +1,57 @@
+<section id="home">
+
+    <section class="jumbotron">
+        <div class="container">
+            <h1 class="jumbotron-heading">starter-symfony-angularjs</h1>
+            <p class="lead">A starter for a project with AngularJS (1.x), Bootstrap (4.x) and Font Awesome (4.x) powered by Symfony (4.x) with Webpack Encore.</p>
+            <a href="#" class="btn btn-primary">Main call to action</a>
+            <a href="#" class="btn btn-secondary">Secondary action</a>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <h2>Features</h2>
+        <ul class="fa-ul">
+            <li><i class="fa-li fa fa-check"></i>Best practice Symfony installation with Flex and Webpack Encore support.</li>
+            <li><i class="fa-li fa fa-check"></i>ES6, and ES7 support with Babel.</li>
+            <li><i class="fa-li fa fa-check"></i>Add AngularJS DI with annotations (/* @ngInject */).</li>
+            <li><i class="fa-li fa fa-check"></i>Source maps included in development builds.</li>
+            <li><i class="fa-li fa fa-check"></i>Versioning in production builds.</li>
+            <li><i class="fa-li fa fa-check"></i>Stylesheets with Autoprefixer and SASS (not required, regular css is supported too).</li>
+        </ul>
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <h3 class="card-title">Quick start</h3>
+                <pre><code>
+# clone the repo
+$ git clone https://github.com/ducrot/starter-angular-angularjs.git my-app
+
+# change directory to your app
+$ cd my-app
+
+# install the dependencies with composer and yarn
+$ composer install
+$ yarn install
+
+# Compile assets
+$ yarn run encore dev
+
+# start the server
+$ php bin/console server:run
+                    </code></pre>
+                <p>Go to <a href="http://localhost:8080">http://localhost:8000</a> in your browser!</p>
+            </div>
+        </div>
+
+        <h2>{{home.helloWorld}}<br/>Some super fancy AngularJs demo</h2>
+        <greeting name="home.name"></greeting>
+        <p>
+            <button class="btn btn-primary" ng-click="home.changeName()">Change</button>
+            <button class="btn btn-danger" ng-click="home.randomName()">Random</button>
+        </p>
+
+    </div>
+
+</section>

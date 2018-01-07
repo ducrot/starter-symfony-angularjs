@@ -1,0 +1,40 @@
+{
+    "name": "starter-symfony-angularjs",
+    "version": "1.0.0",
+    "description": "A starter for a project with AngularJS (1.x), Bootstrap (4.x) and Font Awesome (4.x) powered by Symfony (4.x) with Webpack Encore.",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cducrot/starter-symfony-angularjs.git"
+    },
+    "bugs": {
+        "url": "https://github.com/cducrot/starter-symfony-angularjs/issues"
+    },
+    "homepage": "https://github.com/cducrot/starter-symfony-angularjs",
+    "keywords": [],
+    "author": "Christian Ducrot <christian@ducrot.de>",
+    "license": "MIT",
+    "scripts": {
+        "dev-server": "encore dev-server",
+        "dev": "encore dev",
+        "watch": "encore dev --watch",
+        "build": "encore production"
+    },
+    "dependencies": {
+        "@uirouter/angularjs": "^1.0.12",
+        "angular": "^1.6.8",
+        "angular-animate": "^1.6.8",
+        "angular-touch": "^1.6.8",
+        "bootstrap": "4.0.0-beta.3",
+        "font-awesome": "^4.7.0",
+        "holderjs": "^2.9.4",
+        "ui-bootstrap4": "^3.0.0"
+    },
+    "devDependencies": {
+        "@symfony/webpack-encore": "^0.17.0",
+        "babel-plugin-angularjs-annotate": "^0.8.2",
+        "html-loader": "^0.5.4",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.6",
+        "webpack-notifier": "^1.5.0"
+    }
+}
