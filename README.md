@@ -42,7 +42,7 @@ Go to [http://localhost:8000](http://localhost:8000) in your browser.
 What you need to run this app:
 
 * `composer`, `node` and `yarn`
-* Ensure you're running Node (`v8.0.0`+) and Yarn (`1.3.0`+)
+* Ensure you're running Node (`v8.0.0`+) and Yarn (`1.5.0`+)
 
 ### Installing
 
@@ -87,10 +87,3 @@ Webpack Encore has limitation in the area of HMR. See: [Using webpack-dev-server
 ## License
 
 [MIT License](LICENSE)
-
-
-## Changelog
-
-### Version 1.0.0 (2018-01-07)
-
-Initial release.
