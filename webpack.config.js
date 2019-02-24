@@ -10,10 +10,11 @@ Encore
     // will create public/build/app.js and public/build/app.css
     .addEntry('app', './assets/app.js')
 
+    // We're building a single-page app, so no runtime.js is needed
+    .disableSingleRuntimeChunk()
+
     // This creates a 'vendor.js' with global used libraries.
-    .createSharedEntry('vendor', [
-        'angular', 'angular-animate', 'angular-touch', '@uirouter/angularjs'
-    ])
+    .createSharedEntry('vendor', './webpack.shared.js')
 
     // allow sass/scss files to be processed
     .enableSassLoader()

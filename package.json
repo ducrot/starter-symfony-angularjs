@@ -13,6 +13,7 @@
     "keywords": [],
     "author": "Christian Ducrot <christian@ducrot.de>",
     "license": "MIT",
+    "browserslist": "> 1%",
     "scripts": {
         "dev-server": "encore dev-server",
         "dev": "encore dev",
@@ -30,8 +31,8 @@
         "ui-bootstrap4": "^3.0.5"
     },
     "devDependencies": {
-        "@symfony/webpack-encore": "^0.20.1",
-        "babel-plugin-angularjs-annotate": "^0.9.0",
+        "@symfony/webpack-encore": "^0.23.0",
+        "babel-plugin-angularjs-annotate": "^0.10.0",
         "html-loader": "^0.5.4",
         "node-sass": "^4.9.3",
         "sass-loader": "^7.1.0",
