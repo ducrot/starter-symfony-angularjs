@@ -59,6 +59,9 @@
     "symfony/dependency-injection": {
         "version": "v4.0.3"
     },
+    "symfony/deprecation-contracts": {
+        "version": "v2.2.0"
+    },
     "symfony/dotenv": {
         "version": "v4.0.3"
     },
@@ -95,6 +98,9 @@
             "ref": "18f6fdceb63737d991efbb37ae9619a6f6c978c8"
         }
     },
+    "symfony/http-client-contracts": {
+        "version": "v2.3.1"
+    },
     "symfony/http-foundation": {
         "version": "v4.0.3"
     },
@@ -112,6 +118,9 @@
     },
     "symfony/polyfill-intl-idn": {
         "version": "v1.13.1"
+    },
+    "symfony/polyfill-intl-normalizer": {
+        "version": "v1.22.1"
     },
     "symfony/polyfill-mbstring": {
         "version": "v1.6.0"
