@@ -42,7 +42,7 @@ Go to [http://localhost:8000](http://localhost:8000) in your browser.
 What you need to run this app:
 
 * `composer`, `node` and `yarn`
-* Ensure you're running Node (`v8.0.0`+) and Yarn (`1.5.0`+)
+* Ensure you're running Node (>=`v8.x` and <=`v14.x`) and Yarn (`1.x`+)
 
 ### Installing
 
