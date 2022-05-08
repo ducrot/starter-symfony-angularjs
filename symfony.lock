@@ -11,9 +11,6 @@
     "doctrine/lexer": {
         "version": "v1.0.1"
     },
-    "php": {
-        "version": "7.4"
-    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -133,6 +130,9 @@
     },
     "symfony/polyfill-php80": {
         "version": "v1.17.0"
+    },
+    "symfony/polyfill-php81": {
+        "version": "v1.25.0"
     },
     "symfony/process": {
         "version": "v4.0.3"
