@@ -34,7 +34,7 @@
         "@symfony/webpack-encore": "^0.28.2",
         "babel-plugin-angularjs-annotate": "^0.10.0",
         "html-loader": "^0.5.4",
-        "node-sass": "^4.9.3",
+        "node-sass": "^7.0.0",
         "sass-loader": "^7.3.1",
         "webpack-notifier": "^1.6.0"
     }
